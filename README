@@ -1,0 +1,19 @@
+I wrote this library because I needed a TFTP server in my ATMOSphere program.
+I'm releasing it along with it only because at hte moment is the only software
+I created that use it, and so is for it.
+
+I hope I'll have the time to fully implement also the client functions (now
+that WriteSession's and ReadSession's are complete this should be really 
+trivial.
+
+Maybe one of the next days I'll broke this library in a new package and release
+it also if ATMOSphere is not complete for now, but I'm not sure about it for now.
+
+I licensed this library using the LGPL 2.1 because this is inline with KDE
+standards and also because I think that an implementation of TFTP protocol in a
+QT way can be useful.
+See libtftp/COPYING file for license details.
+
+Regards,
+
+Diego "Flameeyes" Pettenò

@@ -1,0 +1,9 @@
+From version 0.1
+ * Mapping method changed, now you should pass a QIODevice pointer to map
+   the filename to an already opened QFile or to a QBuffer (useful to get
+   logs for my ATMOSphere program).
+ * Server and Client now emits two signals when file are completed to
+   upload or download.
+ * Sessions doesn't close and delete the QIODevice instances (old QFile
+   instances), you should connect sentFile() and receivedFile() signals to
+   some slots to delete the QIODevice instance.
